@@ -53,7 +53,7 @@ console.log("current level :", level);
 let idx = level-1;
 if(userSeq[idx] === gameSeq[idx]){
     if(userSeq.length == gameSeq.length){
-        levelUp();
+        levelUp()
     }
     console.log("same value");
 }else{
